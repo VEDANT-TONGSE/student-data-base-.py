@@ -14,7 +14,7 @@ def setup_database():
             marks INTEGER
         )
     ''')
-
+ 
     conn.commit()
     conn.close()
 
